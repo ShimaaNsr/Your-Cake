@@ -1,0 +1,339 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&family=Taviraj:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pattaya&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Vidaloka&display=swap');
+
+*
+{
+    font-family: 'Vidaloka', serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+header
+{
+    width: 100%;
+    background-color: whitesmoke;
+    position: fixed;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    padding: 25PX 200PX ;
+    align-items: center;
+    box-shadow:rgba(0, 0, 0, 0.5) 0px 1px 15px 0px;
+}
+.logo
+{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Vidaloka', serif;
+    color: #843D62;
+    font-weight: 700;
+    font-size: 1.7em;
+}
+.navigation a
+{
+    text-decoration: none;
+    color: #843D62;
+    font-family: 'Vidaloka', serif;
+    padding: 10px;
+    font-size: 1.1em;
+    font-weight: 400;
+    transition: 0.5s ease;
+}
+.navigation a:hover
+{
+    text-shadow: 1px 2px 6px #565264 ;
+    color: #565264;
+}
+.hight
+{
+    height: 100px;
+}
+section
+{
+  padding: 100px 200px;
+ 
+}
+.main
+{
+    width: 100%;
+    min-height: 100vh;
+    background-color:#706677;
+    box-shadow:rgba(0, 0, 0, 0.9) 0px 1px 3px 0px;
+}
+.main h2
+{
+    margin-top: -322px;
+    color:#CCB7AE;
+    font-weight: 100;
+    font-size: 1.6em;
+}
+.main h2 span
+{
+    display: inline-block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color:#F7E1D7;
+    font-size: 2em;
+    font-weight: 130;
+}
+.main h3
+{
+    color:#CCB7AE;
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+.my-work
+{
+    display: inline-block;
+    text-decoration: none;
+    margin-bottom: 20px;
+    color:#F7E1D7;
+    background-color: #565264;
+    font-size: 1.5em;
+    border: 2px hidden;
+    padding: 7px;
+    border-radius: 15px;
+    box-shadow: 2px 2px 5px black;
+    transition: 0.5s ease;
+}
+.my-work:hover
+{
+    box-shadow:rgba(0, 0, 0, 0.9) 0px 1px 15px 0px;
+    transform: scale(1.1);
+}
+.social a
+{
+    color:#F1E3D3;
+    font-size: 1.7em;
+    padding-right: 15px;
+    transition: 0.6s ease;
+}
+.social a:hover
+{
+    color: #565264;
+    transform: scale(1.1);
+}
+.my-photo
+{
+    width: 360px;
+    margin-left: 627px;
+    margin-top: 50px;
+    border-radius: 15%;
+    box-shadow:rgba(0, 0, 0, 0.9) 0px 1px 15px 0px;
+    background-attachment: fixed;
+}
+.title
+{
+    position: absolute;
+    text-align: center;
+    margin-left: 443px;
+    color:black;
+    font-size: 1.7em;
+    font-weight: 700px;
+    font-family: 'Vidaloka', serif;
+}
+.cake
+{
+    width: 260px;
+    height: 260px;
+    position: absolute;
+    margin-left: 20px;
+    margin-top: -30px;
+    border-radius: 50%;
+    transition: all 0.5s;
+}
+.container:hover .cake
+{
+    /* border-radius: 50%; */
+    margin-top: -50px;
+}
+.cards
+{
+    padding: 100PX 200PX;
+    background-color:whitesmoke;
+    display: flex;
+    flex-wrap: wrap;
+}
+.container
+{
+    background-color: #F2E9E4;
+    margin:100px auto 0 auto;
+    width: 300px;
+    height: 300px;
+    position: relative;
+    border-radius: 12px;
+    transition: all 0.7s;
+    box-shadow: rgba(0, 0, 0, 0.9) 0px 1px 15px 0px;
+}
+.container:hover
+{
+    
+    height: 400px;
+   
+}
+.explain
+{
+    position: absolute;
+    bottom: 0;
+    padding: 10px 30px;
+    opacity: 0;
+    transition: all 1s;
+}
+.explain h2
+{
+    font-size: 1.3em;
+    text-align: center;
+}
+.explain p
+{
+    font-size: 1em;
+    text-align: center;
+}
+.container:hover .explain
+{
+    opacity: 1;
+}
+.price
+{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding: 10px;
+    font-size: 1.2em;
+}
+.heart
+{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding: 20px 10px 40px 0;
+    font-size: 1.2em;
+    color: black;
+    transition: 0.3s;
+}
+.heart:hover
+{
+    font-size:1.4em;
+    color:#9B2226;
+}
+.us
+{
+    background-color: whitesmoke;
+    position: relative;
+    
+}
+.title-us
+{
+    font-size: 1.8em;
+    color:black;
+    font-weight: 700;
+}
+.who-we
+{
+    font-size: 1.4em;
+    color:black;
+    border: 2px hidden;
+    width: 600px;
+    padding: 42px;
+    margin-left: 90px;
+    text-indent: 40px;
+}
+.icon
+{
+    position: absolute;
+    bottom: 3;
+    right: 0;
+    padding: 0px 60px 0px 0px;
+    margin-top: -150px;
+    font-size: 10em;
+    color: #843D62;
+}
+
+.contact
+{
+    width: 100%;
+    height: 100vh;
+    background-color: whitesmoke;
+}
+.contact-box
+{
+    border-radius: 6%;
+    background-color: #706677;
+    width: 550px;
+    height: 350px;
+    margin-left: 210px;
+    padding: 60px 0 0 0 ;
+    box-shadow: 4px 6px 10px black;
+    transition: all 0.7s;
+}
+.contact-box:hover
+{
+    height: 370px;
+}
+.contacts
+{
+    margin-top: 20px;
+    margin-left: 50px;
+
+    margin-bottom: 50px;
+    font-size: 1.7em;
+    color: #F1E3D3;
+}
+.message
+{
+    font-size: 1.3em;
+    margin-top: -20px;
+    padding-left: 80px;
+    padding-right: 80px;
+    color: #F7E1D7;
+}
+.sell
+{
+    transform: rotate(-12deg);
+    width: 120px;
+    border-radius: 50%;
+    margin-left: 406px;
+    margin-top:-90px;
+    box-shadow: rgba(0, 0, 0, 0.5) 0px 1px 15px 0px;
+    transition: all 0.7s;
+}
+.contact-box:hover .sell
+{
+    width: 140px;
+    transform: rotate(712deg);
+}
+.last-icons
+{
+    opacity: 0;
+    font-size: 1.7em;
+    margin-left: 182px;
+    transition: all 0.6s;
+}
+.contact-box:hover .last-icons
+{
+    opacity: 1;
+}
+.whatsapp
+{
+    color:#F1E3D3;
+    padding-right: 30px;
+    transition: all 0.6s;
+}
+.whatsapp:hover
+{
+    color: #565264;
+    transform: scale(1.1);
+}
+.email
+{
+    color:#F1E3D3;
+    transition: all 0.6s;
+}
+.email:hover
+{
+    color: #565264;
+    transform: scale(1.1);
+}
